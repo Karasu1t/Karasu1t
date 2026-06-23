@@ -28,12 +28,20 @@ Claude Code command proposes changes step by step with explicit confirmation, wh
 
 ## How I think about engineering
 
-- I'm still doing this because the feeling of leveling up — trying something new and actually
-  getting it to work — is what keeps me here, more than any revenue number.
+- What drives my effort isn't a revenue number — it's leveling up. Revenue matters (it's
+  literally why I keep getting picked), but it's the result of doing good work, not the reason
+  I do it. Give me something that grows my skills and I'll absorb it without being asked.
 - I have opinions about the "ideal" architecture, but I'll pick the realistic one. I like new
   tech, but operability wins most arguments.
 - I trust what I've actually run and broken over what a blog post says should work.
-- I like building things. I like coming up with what to build even more.
+- I write code heavily, and I want to be in the room from requirements and spec — not just
+  execution. Coming up with "this could be better" ideas comes naturally, but it's on top of
+  building, not instead of it.
+- On a team, I tend to own my own area rather than pair — but I make a habit of feeding
+  teammates information they wouldn't otherwise run into: how other companies actually
+  structure branch strategy or regression prevention, what a Snowflake seminar or AWS Summit
+  was actually worth once you get past the marketing, and what a CEO panel on "how we use AI"
+  revealed once you got past the slide deck — including the times the honest answer was "not much."
 - Whatever I don't know yet, I've consistently figured out on my own.
 
 ---
