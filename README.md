@@ -1,0 +1,58 @@
+# Masaru Ogasawara
+
+Freelance Infrastructure/Cloud Engineer based in Japan, working across AWS, GCP, Databricks,
+and Kubernetes — building data platforms and the governance layers around them.
+Looking to work outside Japan, alongside engineers I can learn from.
+
+---
+
+## Projects
+
+| Project | Problem | Stack | Differentiator |
+|---|---|---|---|
+| [dbt-pii-compliance-pipeline](https://github.com/Karasu1t/dbt-pii-compliance-pipeline) | GDPR PII governance drifts out of sync as schemas change | Databricks, dbt, Unity Catalog, Terraform | AI judgment only at dev-time; CI stays fully deterministic |
+| [claude-driven-schema-evolution](https://github.com/Karasu1t/claude-driven-schema-evolution) | Schema changes touch many files silently | AWS Glue, Iceberg, Athena, Terraform | Same human-in-the-loop pattern, applied to ETL |
+| [internal-log-troubleshooting-with-cortex](https://github.com/Karasu1t/internal-log-troubleshooting-with-cortex) | Cross-cloud IAM trust wiring for incident logs | AWS, Snowflake, Iceberg, Terraform | NL→SQL without exporting raw logs to external LLMs |
+| [enterprise-sales-forecast-dashboard](https://github.com/Karasu1t/enterprise-sales-forecast-dashboard) | ML metrics that lie due to data leakage | GCP, Vertex AI, BigQuery, Terraform | Leakage-aware time-series validation, honest metrics |
+
+---
+
+## How I use AI in engineering
+
+AI judgment belongs at development time, reviewed by a human — never running unattended in CI.
+Two of these projects (schema-evolution, pii-compliance) share the same pattern: an interactive
+Claude Code command proposes changes step by step with explicit confirmation, while CI/CD stays
+100% deterministic — no LLM calls, no API key, anywhere in the pipeline.
+
+---
+
+## How I think about engineering
+
+- I'm still doing this because the feeling of leveling up — trying something new and actually
+  getting it to work — is what keeps me here, more than any revenue number.
+- I have opinions about the "ideal" architecture, but I'll pick the realistic one. I like new
+  tech, but operability wins most arguments.
+- I trust what I've actually run and broken over what a blog post says should work.
+- I like building things. I like coming up with what to build even more.
+- Whatever I don't know yet, I've consistently figured out on my own.
+
+---
+
+## Certifications
+- AWS Certified Solutions Architect – Professional
+- AWS Certified Cloud Practitioner
+- Google Cloud Certified – Associate Cloud Engineer
+- Certified Kubernetes Administrator (CKA)
+- Microsoft Certified: Azure Administrator Associate (AZ-104)
+- SnowPro Associate
+
+[View badges on Credly →](https://www.credly.com/users/username.4ad73995)
+
+---
+
+## Currently building
+
+Lakehouse governance (Databricks + dbt) → streaming fundamentals (Kafka/Flink on Iceberg) →
+production-style Azure portfolio (Event Hubs + Flink on AKS + ADLS2 + Terraform).
+
+Based in Japan.
