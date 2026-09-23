@@ -14,7 +14,7 @@ Looking to work outside Japan, alongside engineers I can learn from.
 | [claude-driven-schema-evolution](https://github.com/Karasu1t/claude-driven-schema-evolution) | Schema changes touch many files silently | AWS Glue, Iceberg, Athena, Terraform | Same human-in-the-loop pattern, applied to ETL |
 | [internal-log-troubleshooting-with-cortex](https://github.com/Karasu1t/internal-log-troubleshooting-with-cortex) | Cross-cloud IAM trust wiring for incident logs | AWS, Snowflake, Iceberg, Terraform | NL→SQL without exporting raw logs to external LLMs |
 | [enterprise-sales-forecast-dashboard](https://github.com/Karasu1t/enterprise-sales-forecast-dashboard) | ML metrics that lie due to data leakage | GCP, Vertex AI, BigQuery, Terraform | Leakage-aware time-series validation, honest metrics |
-| [azure-realtime-lakehouse](https://github.com/Karasu1t/azure-realtime-lakehouse) *(in progress)* | Batch inventory checks detect stockouts a day late | Azure Event Hubs, Flink on AKS, Iceberg, ADLS2, Apache Polaris | Stateful (not windowed) detection; checkpoint-synced exactly-once into a vendor-neutral catalog |
+| [azure-realtime-lakehouse](https://github.com/Karasu1t/azure-realtime-lakehouse) | Batch inventory checks detect stockouts a day late | Azure Event Hubs, Flink on AKS, Iceberg, ADLS2, Apache Polaris | Stateful (not windowed) detection; checkpoint-synced exactly-once into a vendor-neutral catalog |
 
 ---
 
@@ -56,12 +56,3 @@ Claude Code command proposes changes step by step with explicit confirmation, wh
 - SnowPro Associate
 
 [View badges on Credly →](https://www.credly.com/users/username.4ad73995)
-
----
-
-## Currently building
-
-Production-style Azure streaming portfolio (Event Hubs + Flink on AKS + ADLS2 + Apache Polaris) —
-architecture and design decisions are documented, implementation is in progress.
-
-Based in Japan.
