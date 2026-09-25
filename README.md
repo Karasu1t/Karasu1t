@@ -18,6 +18,14 @@ Looking to work outside Japan, alongside engineers I can learn from.
 
 ---
 
+## Learning materials (in Japanese)
+
+| Material | What it is |
+|---|---|
+| [iceberg-learning-handson](https://github.com/Karasu1t/iceberg-learning-handson) *(in progress)* | A story-driven, hands-on Apache Iceberg tutorial for data-platform engineers who are new to Iceberg. Written in Japanese, since Japanese-language Iceberg material is scarce. Runs locally with DuckDB — no cloud account needed. |
+
+---
+
 ## How I use AI in engineering
 
 AI judgment belongs at development time, reviewed by a human — never running unattended in CI.
